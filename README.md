@@ -2,7 +2,7 @@
 
 Spring-batch-csv-reader is a simple project that read data from a csv file and store it in a database.
 
-![schema](./images/dowloadfile.png)
+![schema](./images/dowloadfile.png?style=centerme)
 
 ## Technology
 * [JAVA 11] 
