@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="db.changelog-initial.xml">
+
+    <changeSet author="solujan" id="spring-batch-csv-reader-1">
+
+        <createTable tableName="transaction">
+            <column name="id" type="INT" autoIncrement="true">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="date" type="VARCHAR(50)"/>
+            <column name="type" type="VARCHAR(50)"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
